@@ -1,4 +1,4 @@
-// EpicMagaJam2022
+ // EpicMagaJam2022
 
 #pragma once
 
@@ -13,5 +13,7 @@ UCLASS()
 class EPICMEGAJAM2022_API AMG22GameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
+public:
+  AMG22GameModeBase();
 };
