@@ -7,6 +7,6 @@
 
 AMG22GameModeBase::AMG22GameModeBase() {
 
-  DefaultPawnClass = AMG22BaseCharacterClass::StaticClass();
-  
+  DefaultPawnClass = AMG22BaseCharacter::StaticClass();
+  PlayerControllerClass = AMG22PlayerController::StaticClass();
 }

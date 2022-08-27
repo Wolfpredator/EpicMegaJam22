@@ -1,5 +1,6 @@
 // EpicMagaJam2022
 
+using System;
 using UnrealBuildTool;
 
 public class EpicMegaJam2022 : ModuleRules
@@ -12,9 +13,11 @@ public class EpicMegaJam2022 : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
+		PublicIncludePaths.AddRange(new string[] {"EpicMegaJam2022/Public/Player"});
+
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
-		
+
 		// Uncomment if you are using online features
 		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
 
